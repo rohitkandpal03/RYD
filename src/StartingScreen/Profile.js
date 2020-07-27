@@ -56,7 +56,7 @@ const Profile = (props) => {
             style={{alignSelf: 'flex-end', marginRight: '4%', marginTop: '4%'}}
             type="material"
             name="settings"
-            color="black"
+            color="#292059"
           />
         </TouchableOpacity>
         <View

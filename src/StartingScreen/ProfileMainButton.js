@@ -9,7 +9,7 @@ const ProfileMainButton = (props) => {
       <TouchableOpacity onPress={() => props.onClickProfile('aboutYou')}>
         <Button
           title={'About You'}
-          titleStyle={{color: 'black', fontWeight: '600'}}
+          titleStyle={{color: '#292059', fontWeight: '600'}}
           type="outline"
           onPress={() => console.log('about you')}
           buttonStyle={[
@@ -17,7 +17,7 @@ const ProfileMainButton = (props) => {
               borderTopStartRadius: 25,
               borderBottomStartRadius: 25,
               padding: '6%',
-              borderColor: 'black',
+              borderColor: '#292059',
             },
             props.showAbout
               ? {backgroundColor: 'white'}
@@ -30,14 +30,14 @@ const ProfileMainButton = (props) => {
         <Button
           title={'Manage Coins'}
           type="outline"
-          titleStyle={{color: 'black', fontWeight: '600'}}
+          titleStyle={{color: '#292059', fontWeight: '600'}}
           onPress={() => console.log('manageCoin')}
           buttonStyle={[
             {
               borderTopEndRadius: 25,
               borderBottomEndRadius: 25,
-              padding: '6.5%',
-              borderColor: 'black',
+              padding: '6%',
+              borderColor: '#292059',
             },
             props.showCoins
               ? {backgroundColor: 'white'}
