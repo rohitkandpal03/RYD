@@ -12,7 +12,7 @@ const OTPScreen = (props) => {
   const {route} = props;
 
   const {phone_number} = route.params;
-  const onSubmitHandler = () => props.navigation.replace('Profile');
+  const onSubmitHandler = () => props.navigation.replace('Home');
   const [otp, setOtp] = useState('');
 
   return (
@@ -32,7 +32,7 @@ const OTPScreen = (props) => {
             OTP SMS sent to {phone_number}
           </Text>
           <TouchableOpacity
-            onPress={() => props.navigation.navigate('Home')}>
+            onPress={() => props.navigation.navigate('LoginScreen')}>
             <Image
               style={{width: 22, height: 22}}
               source={require('../assets/pencil.jpg')}

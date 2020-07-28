@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 import {StyleSheet, Text, Animated, Image, TextInput, View} from 'react-native';
-import {Button, Input} from 'react-native-elements';
+
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Swiper from 'react-native-deck-swiper';
 import {useResponsiveHeight} from 'react-native-responsive-dimensions';
